@@ -1,0 +1,96 @@
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MAY Social</title>
+<style>
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: #f4f1fa;
+  color: #25213a;
+  font-family: Arial, sans-serif;
+}
+header {
+  background: #6336a5;
+  color: white;
+  padding: 22px;
+  text-align: center;
+}
+header h1 { margin: 0; font-size: 30px; }
+header p { margin-bottom: 0; }
+nav {
+  display: flex;
+  justify-content: space-around;
+  background: white;
+  padding: 14px 4px;
+  position: sticky;
+  top: 0;
+}
+nav span { font-size: 13px; }
+main { max-width: 600px; margin: auto; padding: 16px; }
+.welcome, .post {
+  background: white;
+  border-radius: 14px;
+  padding: 18px;
+  margin-bottom: 16px;
+}
+.welcome { text-align: center; }
+.welcome h2 { color: #6336a5; }
+.post h3 { margin-top: 0; }
+.photo {
+  background: #e9def8;
+  height: 170px;
+  border-radius: 10px;
+  display: grid;
+  place-items: center;
+  font-size: 48px;
+}
+button {
+  border: 0;
+  border-radius: 20px;
+  padding: 10px 16px;
+  background: #6336a5;
+  color: white;
+  margin: 5px 3px 0 0;
+}
+footer {
+  text-align: center;
+  padding: 25px;
+  color: #777;
+}
+</style>
+</head>
+<body>
+<header>
+  <h1>MAY</h1>
+  <p>Connect • Discover • Share</p>
+</header>
+<nav>
+  <span>🏠 Home</span>
+  <span>🔍 Discover</span>
+  <span>🔥 Fire</span>
+  <span>👤 Profile</span>
+</nav>
+<main>
+  <section class="welcome">
+    <h2>Welcome to MAY</h2>
+    <p>Một không gian chia sẻ ảnh, video và kết nối cộng đồng Pioneer.</p>
+    <button>+ Create Post</button>
+  </section>
+  <section class="post">
+    <h3>🌴 MAY Community</h3>
+    <div class="photo">🌅</div>
+    <p>Khám phá và chia sẻ những khoảnh khắc tuyệt đẹp.</p>
+    <button>♥ Like</button>
+    <button>🔥 Fire · 0.01 Pi</button>
+    <button>Comment</button>
+    <button>Share</button>
+  </section>
+</main>
+<footer>MAY Social · Powered by Pi Network</footer>
+</body>
+</html>
+
